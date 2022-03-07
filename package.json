@@ -1,0 +1,29 @@
+{
+  "name": "node-basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index,js",
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomas-Paoletti/midudev-bootcamp.git"
+  },
+  "author": "Tomas Paoletti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomas-Paoletti/midudev-bootcamp/issues"
+  },
+  "homepage": "https://github.com/Tomas-Paoletti/midudev-bootcamp#readme",
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "nodemon": "2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.3"
+  }
+}
